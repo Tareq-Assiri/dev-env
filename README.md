@@ -1,4 +1,3 @@
-```markdown
 # 🧰 My Dev Setup
 
 This is my personal development environment setup. It includes all the tools I use and my full configuration for each of them.
@@ -59,4 +58,3 @@ This will **overwrite** your existing config files with those in this repo.
 - Use `dev --dry` to safely check config changes before applying.
 - Configs are assumed to go under `~/.config` and `~/.local`.
 - Designed for use on a fresh Linux machine.
-```
