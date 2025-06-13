@@ -20,7 +20,7 @@ This is my personal development environment setup. It includes all the tools I u
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/dev-setup ~/.dev-setup
+git clone https://github.com/Tareq-Assiri/dev-setup ~/.dev-setup
 cd ~/.dev-setup
 ```
 
