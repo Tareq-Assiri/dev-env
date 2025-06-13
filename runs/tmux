@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+if type tmux | grep -q "not found"; then
+	sudo apt install tmux
+fi
