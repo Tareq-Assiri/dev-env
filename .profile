@@ -25,3 +25,5 @@ fi
 if [ -d "$HOME/.local/scripts" ] ; then
     PATH="$HOME/.local/scripts:$PATH"
 fi
+
+xrandr --output DP-2 --off
