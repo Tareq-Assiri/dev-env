@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 if type i3 | grep -q "not found"; then
 	sudo apt install i3
