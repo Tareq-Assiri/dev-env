@@ -18,7 +18,7 @@ switch_to() {
 if tmux has-session -t="$selected_name" 2> /dev/null; then
     switch_to
 else
-    tmux new-session -ds $selected_name -c $selected
+    tmux new-session -ds $selected_name -n "nvim" -c $selected
     switch_to
     tmux send-keys -t $selected_name "ready-tmux" 
 fi
