@@ -106,5 +106,7 @@ alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias vim="nvim"
 
+export PATH=$PATH:/usr/local/go/bin
+
 unsetopt autocd
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
